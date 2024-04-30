@@ -1,0 +1,30 @@
+.description {
+  color: #680beb;
+  background-color: gainsboro;
+
+}
+
+.ingredients {
+  color: #46ad97;
+  background-color: rgb(30, 28, 39);
+}
+
+.instructions {
+  color: #04acea;
+  background-color: #ebcbcb;
+}
+
+li:hover {
+    background-color: #c294ee;
+    cursor: pointer;
+  }
+
+h1 {
+    color: #5f05fa;
+    font-size: 36px;
+    font-weight: bold;
+    transition: text-shadow 0.3s ease;
+}
+  h1:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
